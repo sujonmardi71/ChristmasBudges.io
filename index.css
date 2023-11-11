@@ -1,0 +1,39 @@
+body {
+    background: #343437;
+    color: #ffffffe2;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 16px #fff;
+}
+tr td {
+    border: solid 2px #ffffff52;
+    font-size: 20px;
+    border-radius: 5px;
+}
+tr td a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+tr td a:hover {
+    color: aqua;
+    text-shadow: 1px 1px 8px aqua;
+}
+tr th {
+    border: solid 2px #ffffff52;
+    font-size: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+table {
+    border: solid 2px #fff;
+    margin-top: 20%;
+    margin-left: 17%;
+    width: 33%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 18px #fff;
+}
