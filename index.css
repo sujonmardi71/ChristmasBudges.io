@@ -37,3 +37,11 @@ table {
     border-radius: 10px;
     box-shadow: 1px 1px 18px #fff;
 }
+@keyframes blink {
+      0% { color: #fff; }
+      50% { color: #00eaff; }
+      100% { color: #fff; }
+}
+.encc {
+      animation: blink 1s infinite;
+}
