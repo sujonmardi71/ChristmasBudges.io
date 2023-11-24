@@ -6,7 +6,8 @@ h1 {
     text-align: center;
     color: #fff;
     font-size: 20px;
-    text-shadow: 1px 1px 16px #fff;
+    margin-top: 4%;
+    text-shadow: 2px 3px 10px rgb(255, 0, 230), -2px -2px 5px rgb(0, 255, 247);
 }
 tr td {
     border: solid 2px #ffffff52;
@@ -35,13 +36,76 @@ table {
     width: 33%;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 1px 1px 18px #fff;
+    animation: rotatingRGB 5s linear infinite;
 }
-@keyframes blink {
-      0% { color: #fff; }
-      50% { color: #00eaff; }
-      100% { color: #fff; }
+
+
+.ncom {
+    animation: fclr 2s linear infinite;
 }
-.encc {
-      animation: blink 1s infinite;
+.ccom {
+    animation: complite1 1s linear infinite;
 }
+.zero {
+    animation: zeroa 1s linear infinite;
+}
+
+
+
+@keyframes complite1 {
+    0% {
+        color: #fff;
+    }
+    50% {
+        color: #00eaff;
+    }
+    100% {
+        color: #fff;
+    }
+}
+@keyframes zeroa {
+    0% {
+        color: #fff;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: #fff;
+    }
+}
+@keyframes rotatingRGB {
+    0% {
+      box-shadow: 1px 1px 15px rgb(255, 0, 0);
+    }
+    25% {
+        box-shadow: 1px 1px 15px rgb(0, 255, 0);
+    }
+    50% {
+        box-shadow: 1px 1px 15px rgb(0, 0, 255);
+    }
+    75% {
+        box-shadow: 1px 1px 15px rgb(255, 0, 255);
+    }
+    100% {
+        box-shadow: 1px 1px 15px rgb(255, 0, 0);
+    }
+  }
+
+@keyframes fclr {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+    25% {
+        color: rgb(0, 255, 0);
+    }
+    50% {
+        color: rgb(0, 0, 255);
+    }
+    75% {
+        color: rgb(255, 0, 255);
+    }
+    100% {
+        color: rgb(255, 0, 0);
+    }
+  }
