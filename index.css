@@ -109,3 +109,13 @@ table {
         color: rgb(255, 0, 0);
     }
   }
+
+  @media (min-width:700px) {
+    table {
+        margin-top: 2%;
+        margin-left: 35%;
+    }
+    h1 {
+        margin-top: 10px;
+    }
+  }
